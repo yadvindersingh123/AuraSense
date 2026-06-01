@@ -1,18 +1,26 @@
-# wifi_connect
+# 🌿 AuraSense
 
-A Flutter project with Firebase Realtime Database integration for sensor data.
+AuraSense is a Flutter-based IoT monitoring application that provides real-time sensor data visualization using Firebase Realtime Database. The app allows users to monitor environmental and electrical parameters such as temperature, humidity, and voltage directly from connected IoT devices.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+* 📡 Real-time sensor monitoring
+* 🌡️ Temperature tracking
+* 💧 Humidity monitoring
+* ⚡ Voltage measurement display
+* 🔄 Live Firebase Realtime Database synchronization
+* 📱 Clean and responsive Flutter UI
+* ☁️ Cloud-based data storage and updates
 
-## Firebase Realtime Database Setup
+## 🛠️ Technology Stack
 
-The app displays real-time sensor data (temperature, voltage, humidity) from Firebase Realtime Database.
+* Flutter
+* Dart
+* Firebase Realtime Database
+* Firebase Authentication
+* IoT Sensor Integration
 
-### Database Structure
-
-The app **automatically creates** the database structure when it first runs:
+## 📊 Database Structure
 
 ```json
 {
@@ -24,38 +32,51 @@ The app **automatically creates** the database structure when it first runs:
 }
 ```
 
-### Setting up Firebase Realtime Database:
+## 🚀 Getting Started
 
-1. Go to [Firebase Console](https://console.firebase.google.com/)
-2. Select your project: **aurasense-920b6**
-3. Navigate to **Realtime Database** from the left menu
-4. Click **Create Database**
-5. Start in **test mode** (for development) or set up security rules as needed
-6. **That's it!** The app will automatically create the structure on first run
+### Prerequisites
 
-### Auto-Initialization
+* Flutter SDK
+* Android Studio or VS Code
+* Firebase Project Setup
+* Android/iOS Device or Emulator
 
-The app automatically:
-- ✅ Checks if the `/sensors` path exists in Firebase
-- ✅ Creates the structure with default values if it doesn't exist
-- ✅ Sets up real-time listeners for live updates
+### Installation
 
-### Updating Sensor Data
-
-Your IoT device should update the database in real-time using this path:
-```
-/sensors
+```bash
+git clone https://github.com/yadvindersingh123/AuraSense.git
+cd AuraSense
+flutter pub get
+flutter run
 ```
 
-The app will automatically display the latest values when they change in Firebase. No manual setup required!
+## 🔥 Firebase Setup
 
-## Resources
+1. Create a Firebase project.
+2. Enable Realtime Database.
+3. Add Android and/or iOS applications.
+4. Download configuration files:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-- [Firebase Realtime Database Docs](https://firebase.google.com/docs/database)
+   * `google-services.json` (Android)
+   * `GoogleService-Info.plist` (iOS)
+5. Run the application.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# AuraSense
+The app automatically initializes the required database structure and listens for real-time updates.
+
+## 🎯 Use Cases
+
+* Smart Home Monitoring
+* Environmental Monitoring Systems
+* Industrial Sensor Dashboards
+* IoT Research Projects
+* Educational IoT Applications
+
+## 👨‍💻 Developer
+
+**Yadvinder Singh**
+
+GitHub: https://github.com/yadvindersingh123
+
+## 📄 License
+
+This project is available for learning and development purposes.
