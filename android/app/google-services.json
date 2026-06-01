@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "994167549091",
+    "firebase_url": "https://alarm-145d1-default-rtdb.firebaseio.com",
+    "project_id": "alarm-145d1",
+    "storage_bucket": "alarm-145d1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994167549091:android:522692cb2f8c872aaea316",
+        "android_client_info": {
+          "package_name": "com.appcodie.wifi_connect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVH-7pfliJkD2lpYvqTjvLd4ee4H2tIjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
